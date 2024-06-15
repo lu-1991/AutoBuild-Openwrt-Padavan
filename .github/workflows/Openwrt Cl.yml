@@ -34,18 +34,15 @@ on:
       model:
         description: '选择机型'
         required: true
-        default: 'JDCloud_RedmiAX5' 
+        default: 'JDCloud_AX1800Pro' 
         type: choice
         options:
           - 'JDCloud luban'
           - 'JDCloud_AX1800Pro'
+          - 'JDCloud_AX1800Pro_docker'
           - 'JDCloud_AX6000'
           - 'JDCloud_RedmiAX5'
-          - 'MI-R3G'
-          - 'G-Dock'
-          - 'G-Dock-Lite'
-          - 'K2P'
-          
+                    
       UPLOAD_BIN_DIR:
         type: boolean
         description: '上传bin文件夹'
