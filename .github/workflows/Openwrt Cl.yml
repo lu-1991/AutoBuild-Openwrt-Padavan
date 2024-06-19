@@ -41,6 +41,7 @@ on:
           - 'JDCloud_AX1800Pro'
           - 'JDCloud_AX1800Pro_docker'
           - 'JDCloud_AX6000'
+          - 'JDCloud_AX6600'
           - 'JDCloud_RedmiAX5'
                     
       UPLOAD_BIN_DIR:
