@@ -43,6 +43,7 @@ on:
           - 'JDCloud_AX6000'
           - 'JDCloud_AX6600'
           - 'JDCloud_RedmiAX5'
+          - 'NEWifi D2'
                     
       UPLOAD_BIN_DIR:
         type: boolean
