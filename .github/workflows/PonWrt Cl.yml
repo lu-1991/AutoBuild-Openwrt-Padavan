@@ -30,12 +30,12 @@ on:
       model:
         description: '选择机型'
         required: true
-        default: 'FiberHome HG5585F CT' 
+        default: 'HG5585F_CT' 
         type: choice
         options:
-          - 'FiberHome HG5585F CT'
-          - 'ZNXT ZN515XG-MD'
-          - 'Nokia XG-040G-MD'
+          - 'HG5585F_CT'
+          - 'ZN515XG_MD'
+          - 'XG_040G_MD'
                     
       UPLOAD_BIN_DIR:
         type: boolean
